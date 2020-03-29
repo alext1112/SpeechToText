@@ -66,3 +66,7 @@ function createBox(item) {
 
   main.appendChild(box);
 }
+
+toggleBtn.addEventListener('click', () => {
+  document.getElementById('text-box').classList.toggle('show');
+})
